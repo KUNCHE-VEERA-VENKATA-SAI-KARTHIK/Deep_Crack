@@ -1,16 +1,3 @@
-"""
-WSGI config for deep_crack project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/4.0/howto/deployment/wsgi/
-"""
-
-import os
-
-from django.core.wsgi import get_wsgi_application
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'deep_crack.settings')
-
-application = get_wsgi_application()
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbd9b68cb2fe8c5c1263796018d2a872d6d0b74e7cfa707d4240fe61e8fc3cf5
+size 413

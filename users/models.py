@@ -1,17 +1,3 @@
-
-# Create your models here.
-from django.db import models
-from mains.models import *
-
-
-        
-class Dataset(models.Model):
-   Data_id = models.AutoField(primary_key=True)
-   Image = models.ImageField(upload_to='media/') 
-   class Meta:
-        db_table = "upload" 
-
-
-        
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c3065911e8dce954160eef91c4927dab4c1352260d073ff32501dac21c076fcb
+size 296

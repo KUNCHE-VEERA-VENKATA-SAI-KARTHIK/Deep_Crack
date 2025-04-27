@@ -100,7 +100,8 @@
     <pre>{{ classification_report }}</pre>
 
     <h2>Confusion Matrix</h2>
-    <table border="1">
+    <div> <div/>
+    <table border="1" class='ml-2'>
         {% for row in confusion_matrix %}
         <tr>
             {% for col in row %}
